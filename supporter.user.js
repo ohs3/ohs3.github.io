@@ -75,7 +75,7 @@ async function run() {
                 resolve({template_ctx: template_ctx, template_img: img})
             }
             img.onerror = reject
-            img.src = "https://raw.githubusercontent.com/ohs3/rplace/main/mrbongMing.png?tstamp=" + Math.floor(Date.now() / 10000);
+            img.src = "https://github.com/ohs3/ohs3.github.io/raw/main/mrbongMing12.bmp?tstamp=" + Math.floor(Date.now() / 10000);
         })
     }
 
